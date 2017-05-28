@@ -4,14 +4,40 @@
     margin: 0 auto;
 }
 
-/* header and navigation */
 header {
+    position: relative;
     width: 100%;
     height: 800px;
     background-color: grey;
     background-image: url(../img/header-background.jpg);
     background-size: cover;
     
+}
+
+/* header text */
+
+#header-text {
+    position: absolute;
+    /* border: 1px solid red; */
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    bottom: 0;
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 6em;
+    color: #fff;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 3em;
+    color: #fff;
 }
 
 /* navigation */
@@ -31,3 +57,4 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+
