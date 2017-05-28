@@ -28,15 +28,22 @@ header {
 
 h1 {
     font-family: "Roboto";
-    font-weight: 300;
-    font-size: 6em;
+    font-weight: 100;
+    font-size: 12em;
     color: #fff;
+}
+
+#surname {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    color: #1ac056;
 }
 
 h3 {
     font-family: "Roboto";
-    font-weight: 300;
-    font-size: 3em;
+    font-weight: 100;
+    font-size: 4em;
     color: #fff;
 }
 
