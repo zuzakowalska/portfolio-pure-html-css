@@ -25,6 +25,7 @@ p {
 .container {
     border: 1px solid red;
     width: 100%;
+    margin-top: 2em;
 }
 
 /* header text */
@@ -165,4 +166,15 @@ h3 {
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
+}
+
+#skills-container {
+    width: 50%;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+#skills-container img {
+    margin-left: 1em;
+    margin-right: 1em;
 }
