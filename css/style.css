@@ -9,8 +9,25 @@ header {
     width: 100%;
     height: 800px;
     background-color: grey;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    
+}
+
+/* navigation */
+
+nav ul {
+    float: right;
 }
 
 nav li {
+    display: inline-block;
+    margin: 1.5em;
+    list-style-type: none;
+}
+
+nav a {
+    font-family: "Lato-light" , sans-serif;
+    text-decoration: none;
     color: #fff;
 }
