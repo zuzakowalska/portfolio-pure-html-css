@@ -9,7 +9,10 @@
 }
 
 @media all and (max-width: 768px) {
-    
+    figure.portfolio-item {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 640px) {

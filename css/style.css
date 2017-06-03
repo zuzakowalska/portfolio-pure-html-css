@@ -225,7 +225,7 @@ h5 {
 /* portfolio */
 
 section#portfolio {
-    height: 600px;
+    height: auto;
 }
 
 figure.portfolio-item {
