@@ -25,9 +25,36 @@
     color: #1ac056;
         
     }
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav #drop:checked + ul {
+        display: block;
+    }
+    
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    
+    header #header-text {
+        padding: 10%;
+    }
 }
 
 @media all and (max-width: 640px) {
+    
+    header #header-text h1 {
+        font-size: 4em;
+    }
+    
+    header #header-text h2 {
+        font-size: 2em;
+    } 
     
 }
 
