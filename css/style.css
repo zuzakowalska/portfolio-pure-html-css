@@ -382,3 +382,17 @@ form#contact-form {
     border: 2px solid #fff;
     line-height: 4rem;
 }
+
+.contact-social-media-box:hover {
+    background-color: #1ac056;
+    border: 2px solid #1ac056;
+    transition: all 0.2s ease;
+}
+
+footer {
+    background-color: #042633;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    text-align: center;
+}
