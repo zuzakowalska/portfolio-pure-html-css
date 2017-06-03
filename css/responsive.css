@@ -1,19 +1,21 @@
-@media (min-width: 1200px;){
+@media all and (max-width: 1200px) {
+    figure.portfolio-item  {
+        width: 50%;
+    }
+    figure.portfolio-item:last-child {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
     
 }
 
-@media (min-width: 768px) and (max-width: 1200px;) {
-
-}
-
-@media (min-width: 640px) and (max-width: 768px;) {
-
-}
-
-@media (min-width: 480px) and (max-width: 640px) {
+@media all and (max-width: 640px) {
     
 }
 
-@media (max-width: 480px) {
+@media all and (max-width: 480px) {
     
 }
