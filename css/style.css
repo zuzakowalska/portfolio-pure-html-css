@@ -135,10 +135,12 @@ nav a:hover {
 /* Picture */
 
 .about-img-container {
+    width: 100%;
     height: auto;
     position: absolute;
-    display: inline-block;
+    display: block;
     float: left;
+    align-items: baseline;
     border: 1px solid red; */
 }
 
