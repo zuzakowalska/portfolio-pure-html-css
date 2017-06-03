@@ -280,3 +280,34 @@ div.portfolio-item-hover:hover {
     opacity: 100;
 }
 
+/* Kontakt */
+
+section#contact {
+    height: 400px;
+    background: linear-gradient(to bottom, rgba(21,89,112,1) 0%, rgba(1,59,80,1) 100%);
+    padding-left: 15%;
+    padding-top: 2em;
+}
+
+section#contact h3 {
+    color: #fff;
+    text-align: left;
+}
+
+div#adress {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+/* Formularz Kontaktowy */
+
+form#contact-form {
+    right: 15%;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.contact-field {
+    display: block;
+}
