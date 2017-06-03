@@ -127,10 +127,13 @@ nav .toggle, #drop {
     
 }
 
+#about .center-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .about-container {
-    position: relative;
-    display: inline-block;
-    width: 50%;
+    max-width: 300px;
     font-size: 0;
     height: auto;
     /* border: 1px solid red; */
@@ -138,18 +141,10 @@ nav .toggle, #drop {
 
 /* Picture */
 
-.about-img-container {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    display: block;
-    float: left;
-    align-items: baseline;
-    /* border: 1px solid red; */
-}
 
 #about img {
-    width: 18.75rem;
+    width: 100%;
+    max-width: inherit;
     border: 10px solid #fff;
     border-radius: 10px;
     }
@@ -157,12 +152,7 @@ nav .toggle, #drop {
 /* About - text */
 
 .about-container-text {
-    position: absolute;
-    display: inline-block;
-    overflow: auto;
-    height: auto;
-    float: right;
-    /* border: 1px solid red; */
+    padding: 5px;
 }
 
 
