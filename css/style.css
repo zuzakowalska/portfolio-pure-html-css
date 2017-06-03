@@ -109,6 +109,10 @@ nav a:hover {
     padding-bottom: 21px;
 }
 
+nav .toggle, #drop {
+    display: none;
+}
+
 /* O mnie */
 
 #about {

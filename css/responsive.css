@@ -13,6 +13,18 @@
         display: block;
         width: 100%;
     }
+    
+    nav .toggle {
+    display: block;
+    background-color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 60px;
+    border: none;
+    text-align: right;
+    color: #1ac056;
+        
+    }
 }
 
 @media all and (max-width: 640px) {
