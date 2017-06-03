@@ -23,9 +23,18 @@ p {
 }
 
 .container {
-    /*border: 1px solid red;*/
+   /* border: 1px solid red;*/
     width: 100%;
     margin-top: 2em;
+}
+
+.center-container {
+    width: 75vw;
+     border: 1px solid blue; */
+    display: block;
+    margin: auto;
+    font-size: 0;
+    margin-bottom: 3rem;
 }
 
 /* header text */
@@ -109,7 +118,8 @@ nav a:hover {
     position: relative;
     display: inline-block;
     height: 400px;
-    width: 49%;
+    width: 50%;
+    font-size: 0;
     
     /* border: 1px solid red; */
 }
@@ -136,7 +146,6 @@ nav a:hover {
 
 #about p {
     position: absolute;
-    padding-right: 10%;
     /* border: 1px solid red; */
 }
 
@@ -285,7 +294,7 @@ div.portfolio-item-hover:hover {
 section#contact {
     height: 400px;
     background: linear-gradient(to bottom, rgba(21,89,112,1) 0%, rgba(1,59,80,1) 100%);
-    padding-left: 15%;
+    /*padding-left: 15%;*/
     padding-top: 2em;
 }
 
@@ -302,7 +311,7 @@ div#adress {
 /* Formularz Kontaktowy */
 
 form#contact-form {
-    right: 15%;
+    /*right: 15%;*/
     position: absolute;
     display: inline-block;
     border: 1px solid red;
@@ -310,4 +319,12 @@ form#contact-form {
 
 .contact-field {
     display: block;
+    width: 40vw;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
 }
