@@ -44,6 +44,15 @@
     header #header-text {
         padding: 10%;
     }
+
+    form#contact-form {
+    display: block;
+    }
+    
+    .contact-field {
+        width: 100%;
+    }
+    
 }
 
 @media all and (max-width: 640px) {

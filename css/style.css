@@ -184,6 +184,11 @@ h3 {
     padding-left: 10%;
 }
 
+#skills .center-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #skills-container {
     width: 50%;
     height: 200px;
@@ -366,11 +371,12 @@ form#contact-form {
 }
 
 #contact-social-media-container {
-    display: block;
+    display: inline-flex;
 }
 
 #contact-social-media {
-    display: inline-flex;
+    display: flex;
+    left: 0px;
     /* border: 1px solid magenta; */
 }
 
